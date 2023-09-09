@@ -1,0 +1,52 @@
+.container{
+    width: 98%;
+    margin:0 auto;
+}
+
+#name{
+    color: brown;
+    padding: 40px;
+    text-align:left ;
+    font-size: 30px;
+    position: absolute;
+}
+#row{
+    float: right;
+    width:35%;
+    padding: 40px;
+    margin: auto;
+}
+#day{
+    color: brown;
+    width: 100%;
+    margin: 0.5rem auto;
+    text-align: center;
+    display:inline-block;
+    
+    
+}
+#time{
+    color: brown;
+    width:100%;
+    text-align: center;
+    margin: 0.5rem auto;
+    display: inline-block;
+}
+#track{
+    color: brown;
+
+    width: 100%;
+    margin: 0.5rem auto;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+
+}
+#link{
+    color: blue;
+    width: 100%;
+    margin: 0.5rem auto;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}

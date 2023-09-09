@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link href="project.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div id="name" data-testid="slackUserName">
+        <b>Atimma</b>
+    </div> 
+    <div id="row" data-testid="slackDisplayImage">
+        <img src="image/snapp.jpg" alt="Atimma" >
+    </div>
+    <div id="day" data-testid="currentDayOfTheWeek">
+        <p>Friday</p>
+    </div>
+    
+    <div id="time" data-testid="currentUTCTime">
+        <p id="currentutc"></p>
+    <script>
+    const d= new Date();
+    let ms=d.getUTCMilliseconds();
+    document.getElementById("currentutc").innerHTML=ms;
+    </script>
+    </div>
+
+    <div id="track" data-testid="myTrack">
+        <p>Frontend</p>
+    </div>
+    <div id="link" data-testid="githubURL">
+        <a href="https://github.com/ati-mma/slackprojecttask.github.io" > Github</a>
+    </div>
+    </div>
+
+
+
+</body>
+</html>
